@@ -137,7 +137,7 @@ can be published publicly (readonly via public link) or shared with org (require
 - iterate incrementally: one feature and change at a time to identify whats working and catch issues early
 - request artifact when needed if model is not it creating automatically "create that as an artifact"
 
-## [skills](FIXME)
+## [skills](../4-introduction-to-agent-skills/README.md)
 
 - folder of instructions, scripts and resource that model loads dynamically to improve perf on specialized tasks
 - expertise packages
