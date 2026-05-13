@@ -21,7 +21,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "jq . >> hook-log.json"
+            "command": "jq . >> hook-logs.json"
           }
         ]
       }

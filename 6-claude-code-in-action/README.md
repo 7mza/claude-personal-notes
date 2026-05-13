@@ -74,7 +74,7 @@ to clean context polution: `esc esc` to enter rewind mode, go back in conv (remo
 
 custom commands:
 
-- for simple cmds you can use [md file](../.claude/toto.md) to desc a command, use `$ARGUMENTS` placeholder to pass args
+- for simple cmds you can use [md file](../.claude/commands/toto.md) to desc a command, use `$ARGUMENTS` placeholder to pass args
 
 browser automation mcp:
 
@@ -83,7 +83,6 @@ browser automation mcp:
 - prompt `open browser at google.fr` or `open librewolf at` (if default chrome not found)
 
 [github integration](https://anthropic.skilljar.com/claude-code-in-action/303240)
-
 `// FIXME : do a simple gh issue/mention/playwright example`
 
 `/hooks` to see all available types
@@ -102,6 +101,7 @@ useful hooks :
 
 - compile or type check code after a PostToolUse and return any errors to context
 - run unit tests and return ...
-- [hook using sdk](https://anthropic.skilljar.com/claude-code-in-action/312004) # FIXME: implement something like this
+- [hook using sdk](https://anthropic.skilljar.com/claude-code-in-action/312004)
+  `// FIXME: implement something like this`
 
 use [2nd hook example](../.claude/settings.json) to study hook responses

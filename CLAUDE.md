@@ -17,6 +17,7 @@ each numbered folder corresponds to one skilljar course, with notes in its `READ
 - `./5-introduction-to-subagents` — Introduction to subagents
 - `./6-claude-code-in-action` — Claude Code in Action
 - `./7-introduction-to-model-context-protocol` — Introduction to Model Context Protocol
+- `./8-model-context-protocol-advanced-topics` — Model Context Protocol: Advanced Topics
 
 ## Claude guidelines
 
