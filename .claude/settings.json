@@ -2,5 +2,29 @@
   "permissions": {
     "allow": ["mcp__playwright", "mcp__context7"],
     "deny": []
+  },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Read",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 ${CLAUDE_PROJECT_DIR}/.claude/hooks/read_hook.py"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "jq . >> hook-log.json"
+          }
+        ]
+      }
+    ]
   }
 }

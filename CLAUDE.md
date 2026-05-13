@@ -16,6 +16,7 @@ each numbered folder corresponds to one skilljar course, with notes in its `READ
 - `./4-introduction-to-agent-skills/` — Introduction to agent skills
 - `./5-introduction-to-subagents` — Introduction to subagents
 - `./6-claude-code-in-action` — Claude Code in Action
+- `./7-introduction-to-model-context-protocol` — Introduction to Model Context Protocol
 
 ## Claude guidelines
 
@@ -27,4 +28,14 @@ always check for contradictions, out of date, or factually wrong facts and notes
 
 **never read `*.pdf` files**
 
-##
+## format
+
+```
+npm run format
+
+source ./venv/bin/activate
+pip3 install --upgrade -r requirements.txt
+isort . && black .
+pip3 cache purge
+deactivate
+```

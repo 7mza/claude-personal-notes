@@ -84,4 +84,24 @@ browser automation mcp:
 
 [github integration](https://anthropic.skilljar.com/claude-code-in-action/303240)
 
-`// FIXME : do a simple gh issue/mention/ playwritght example`
+`// FIXME : do a simple gh issue/mention/playwright example`
+
+`/hooks` to see all available types
+
+[hook example](../.claude/settings.json)
+
+test it:
+
+```
+read file do_not_read.txt and tell me exacly what hook returns, do not read hook file content (code)
+```
+
+referencing a file through `@...` will read before any hook triggers and inject content as sys prompt
+
+useful hooks :
+
+- compile or type check code after a PostToolUse and return any errors to context
+- run unit tests and return ...
+- [hook using sdk](https://anthropic.skilljar.com/claude-code-in-action/312004) # FIXME: implement something like this
+
+use [2nd hook example](../.claude/settings.json) to study hook responses

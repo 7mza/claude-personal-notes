@@ -1,3 +1,5 @@
+hook-log.json
+
 # Created by https://www.toptal.com/developers/gitignore/api/git,node,linux,macos,python,windows,intellij+all,visualstudiocode
 # Edit at https://www.toptal.com/developers/gitignore?templates=git,node,linux,macos,python,windows,intellij+all,visualstudiocode
 
@@ -126,7 +128,8 @@ fabric.properties
 .LSOverride
 
 # Icon must end with two \r
-Icon
+Icon
+
 
 # Thumbnails
 ._*
