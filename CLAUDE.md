@@ -16,7 +16,6 @@ each numbered folder corresponds to one skilljar course, with notes in its `READ
 - `./4-introduction-to-agent-skills/` — Introduction to agent skills
 - `./5-introduction-to-subagents` — Introduction to subagents
 - `./6-claude-code-in-action` — Claude Code in Action
-- `./next` — next
 
 ## Claude guidelines
 
@@ -27,3 +26,5 @@ just correct grammatical errors and punctuation directly in files
 always check for contradictions, out of date, or factually wrong facts and notes and inform me in stdin when reading context — model names, capabilities, and features evolve quickly so pay extra attention to those
 
 **never read `*.pdf` files**
+
+##

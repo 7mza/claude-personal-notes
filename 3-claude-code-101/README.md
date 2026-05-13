@@ -96,7 +96,7 @@ hooks = deterministic based on condition (event/matcher), LLMs are not, if you n
 
 scopes:
 
-- `project/.claude/hooks/settings.json`
+- `project/.claude/settings.json`
 
 event that trigger a hook:
 
